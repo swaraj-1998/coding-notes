@@ -435,6 +435,7 @@ std::scoped_lock<std::mutex, std::mutex> guard(mutex_1, mutex_2);
 #### **std::unique_lock<>**
 
 [Reference](<https://en.cppreference.com/w/cpp/thread/unique_lock>)
+https://www.geeksforgeeks.org/stdunique_lock-or-stdlock_guard-which-is-better/
 
 - Just like the normal lock guard, except...
 - It initialises an exclusive lock
